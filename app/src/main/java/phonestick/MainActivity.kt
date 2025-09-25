@@ -92,7 +92,11 @@ class MainActivity : Activity() {
                 "  echo y > functions/mass_storage.0/lun.0/removable",
                 "  echo \$PS_MOUNT_CDROM > functions/mass_storage.0/lun.0/cdrom",
                 "else",
-                "  svc usb resetUsbPort",
+                "  cd \$CONFIGFS/usb_gadget/ps",
+                "  echo '' > UDC || true",
+                "  svc usb resetUsbGadget || true",
+                "  svc usb resetUsbPort || true",
+                "  svc usb setFunctions '' || true",
                 "fi",
                 "echo \$PS_MOUNT_READ_ONLY > functions/mass_storage.0/lun.0/ro",
                 "echo \$PS_MOUNT_FILE > functions/mass_storage.0/lun.0/file",
@@ -107,7 +111,9 @@ class MainActivity : Activity() {
                 "CONFIGFS=`mount -t configfs | head -n1 | cut -d' ' -f 3`",
                 "cd \$CONFIGFS/usb_gadget/ps",
                 "echo '' > UDC || true",
-                "svc usb resetUsbPort",
+                "svc usb resetUsbGadget || true",
+                "svc usb resetUsbPort || true",
+                "svc usb setFunctions '' || true",
                 "getprop sys.usb.controller > ../g1/UDC"
             )
 
