@@ -32,8 +32,8 @@
 	<string name="create_image_help">Image files will save to Download/</string>
 
     <!-- Toast messages -->
-    <string name="host_success">The device should now show up on your PC</string>
-    <string name="host_disable_success">The device should now disappear from your PC</string>
+    <string name="host_success">Image mounted successfully</string>
+    <string name="host_disable_success">Image unmounted successfully</string>
     <string name="host_noroot">Operation failed</string>
     <string name="file_picker_denied">Please grant access to storage to access this file</string>
 </resources>
