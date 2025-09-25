@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<licenses xmlns:android="http://schemas.android.com/apk/res/android">
+    <license
+        name="DdogezD/phonestick"
+        type="MIT"
+        file="phonestick.txt"
+        url="https://github.com/DdogezD/phonestick" />
+    <license
+        name="JinbaIttai/phonestick"
+        type="MIT"
+        file="phonestick-JinbaIttai.txt"
+        url="https://github.com/JinbaIttai/phonestick" />
+    <license
+        name="Streetwalrus/android_usb_msd"
+        type="MIT"
+        file="usbmountr.txt"
+        url="https://github.com/Streetwalrus/android_usb_msd" />
+    <license
+        name="iPaulPro/aFileChooser (parts)"
+        type="Apache 2.0"
+        file="afilechooser.txt"
+        url="https://github.com/iPaulPro/aFileChooser" />
+    <license
+        name="jetbrains/kotlin"
+        type="Apache 2.0"
+        file="kotlin.txt"
+        url="https://github.com/jetbrains/kotlin" />
+    <license
+        name="topjohnwu/libsu"
+        type="Apache 2.0"
+        file="libsu.txt"
+        url="https://github.com/topjohnwu/libsu" />
+</licenses>

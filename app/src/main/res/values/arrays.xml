@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="size_units">
+        <item>MB</item>
+        <item>GB</item>
+    </string-array>
+</resources>

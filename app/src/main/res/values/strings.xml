@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PhoneStick</string>
+
+    <string name="licenses">Licenses</string>
+    <string name="licenses_upstream">Upstream source</string>
+	<string name="menu_new_image">Create Image</string>
+
+    <string name="file_picker_nofile">None</string>
+
+    <!-- MainActivity -->
+    <string name="host_source_file">Image file</string>
+    <string name="host_ro">Read-only</string>
+    <string name="host_ro_summary">Prevent the PC from writing to the image</string>
+    <string name="host_serve">Mount</string>
+    <string name="host_disable">Unmount</string>
+    <string name="host_help">Click *Mount* to apply any changes</string>
+
+    <!-- ImageChooserActivity -->
+    <string name="title_activity_image_chooser">Image files</string>
+    <string name="image_chooser_filesize_mib">%1$.1f MiB</string>
+    <string name="image_chooser_add">Add new image</string>
+    <string name="image_chooser_copying_dialog">Copying image file</string>
+
+	<!-- NewImageActivity -->
+    <string name="hint_image_name">Image file name (eg. phonestick.img)</string>
+    <string name="label_size">Image size</string>
+    <string name="create_image">Create Image</string>
+    <string name="dialog_creating">Creating image file...</string>
+    <string name="toast_create_success">Image created successfully</string>
+    <string name="toast_create_failed">Failed to create image</string>
+    <string name="error_no_busybox">No usable BusyBox found</string>
+	<string name="create_image_help">Image files will save to Download/</string>
+
+    <!-- Toast messages -->
+    <string name="host_success">The device should now show up on your PC</string>
+    <string name="host_disable_success">The device should now disappear from your PC</string>
+    <string name="host_noroot">Operation failed</string>
+    <string name="file_picker_denied">Please grant access to storage to access this file</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phonestick.MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="phonestick.HostPreferenceFragment"
+        android:id="@+id/prefs" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/host_serve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onServeClicked"
+                android:id="@+id/serve"
+                android:layout_weight="1"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:text="@string/host_disable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/disable"
+                android:onClick="onDisableClicked"
+                android:layout_weight="1"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_vertical_spacing" />
+
+        <TextView
+            android:text="@string/host_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help" />
+
+    </LinearLayout>
+
+</LinearLayout>

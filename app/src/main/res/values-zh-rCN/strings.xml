@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PhoneStick</string>
+
+    <string name="licenses">开源证书</string>
+    <string name="licenses_upstream">链接</string>
+	<string name="menu_new_image">创建镜像</string>
+
+    <string name="file_picker_nofile">无文件</string>
+
+    <!-- MainActivity -->
+    <string name="host_source_file">镜像文件</string>
+    <string name="host_ro">写保护</string>
+    <string name="host_ro_summary">拒绝上位机对已挂载镜像的修改</string>
+    <string name="host_serve">挂载镜像</string>
+    <string name="host_disable">卸载镜像</string>
+    <string name="host_help">请点击 *挂载镜像* 来应用修改</string>
+
+    <!-- ImageChooserActivity -->
+    <string name="title_activity_image_chooser">镜像文件</string>
+    <string name="image_chooser_filesize_mib">%1$.1f MiB</string>
+    <string name="image_chooser_add">添加新的镜像文件</string>
+    <string name="image_chooser_copying_dialog">正在复制镜像文件</string>
+
+	<!-- NewImageActivity -->
+	<string name="hint_image_name">镜像文件名 (例: phonestick.img)</string>
+	<string name="label_size">镜像大小</string>
+	<string name="create_image">创建镜像</string>
+	<string name="dialog_creating">正在创建镜像文件...</string>
+	<string name="toast_create_success">镜像创建成功</string>
+	<string name="toast_create_failed">镜像创建失败</string>
+	<string name="error_no_busybox">未找到可用的 BusyBox</string>
+	<string name="create_image_help">创建的镜像文件将保存到 Download 文件夹</string>
+
+    <!-- Toast messages -->
+    <string name="host_success">设备已被挂载</string>
+    <string name="host_disable_success">设备已被卸载</string>
+    <string name="host_noroot">操作失败</string>
+    <string name="file_picker_denied">请授权访问此文件的权限</string>
+</resources>
