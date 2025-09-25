@@ -1,6 +1,5 @@
 # Notice
 This is a fork of a fork of a fork of a fork of streetwalrus' USB Mountr application.
-I am planning to call it PhoneStick, but this project is still in its infancy.
 
 forked from [JinbaIttai/phonestick](https://github.com/Swyter/phonestick)
 
@@ -10,8 +9,9 @@ who forked it from [dratini0/phonestick](https://github.com/dratini0/phonestick)
 
 who forked it from [donfanning/android\_usb\_msd](https://github.com/donfanning/android_usb_msd) (aka streetwalrus.usbmountr ?)
 
+---
+
 filepicker fixes from [kodiak-it/USB\_Mountr/](https://github.com/kodiak-it/USB_Mountr)
-USB gadget code from [Swyter/android-usb-mass-storage-enable](https://github.com/Swyter/android-usb-mass-storage-enable)
 
 ---
 
@@ -20,6 +20,7 @@ Changes by [DdogezD](https://github.com/DdogezD):
 - stop renaming everyting, let us just call it "com.phonestick", and leave our credits only in readme and licenses, okay?
 
 - bump Sdk33
+- main logic rewritten
 - switch chainfire's libsuperuser to magisk libsu
 - fixup: let usb features working properly after unmount
 - feat: create image
