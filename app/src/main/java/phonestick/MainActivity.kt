@@ -97,7 +97,6 @@ class MainActivity : Activity() {
                 "  svc usb resetUsbGadget",
                 "  svc usb resetUsbPort",
                 "  svc usb setFunctions ''",
-                "  getprop sys.usb.controller > UDC",
                 "fi",
                 "echo \$PS_MOUNT_READ_ONLY > functions/mass_storage.0/lun.0/ro",
                 "echo \$PS_MOUNT_FILE > functions/mass_storage.0/lun.0/file",
