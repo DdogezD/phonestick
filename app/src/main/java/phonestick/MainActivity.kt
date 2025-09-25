@@ -98,9 +98,9 @@ class MainActivity : Activity() {
                 "else",
                 "  cd \$CONFIGFS/usb_gadget/ps",
 				"  echo '' > ../g1/UDC || true",
-                "  svc usb resetUsbGadget || true",
-                "  svc usb resetUsbPort || true",
-                "  svc usb setFunctions '' || true",
+                "  svc usb resetUsbGadget",
+                "  svc usb resetUsbPort",
+                "  svc usb setFunctions ''",
                 "fi",
                 "getprop sys.usb.controller > UDC",
                 "setprop sys.usb.state mass_storage"
@@ -111,9 +111,9 @@ class MainActivity : Activity() {
                 "CONFIGFS=`mount -t configfs | head -n1 | cut -d' ' -f 3`",
                 "cd \$CONFIGFS/usb_gadget/ps",
                 "echo '' > UDC || true",
-                "svc usb resetUsbGadget || true",
-                "svc usb resetUsbPort || true",
-                "svc usb setFunctions '' || true",
+                "svc usb resetUsbGadget",
+                "svc usb resetUsbPort",
+                "svc usb setFunctions ''",
                 "getprop sys.usb.controller > ../g1/UDC"
             )
 
