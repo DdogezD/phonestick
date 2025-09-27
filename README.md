@@ -19,12 +19,17 @@ Changes by [DdogezD](https://github.com/DdogezD):
 
 - stop renaming everyting, let us just call it "com.phonestick", and leave our credits only in readme and licenses, okay?
 
+- add ci build
 - bump Sdk33
 - main logic rewritten
-- switch chainfire's libsuperuser to magisk libsu
-- fixup: let usb features working properly after unmount
+- switch chainfire's "libsuperuser" to magisk‘s "libsu"
+- fixup!: let usb features working properly after unmount (still infancy
 - feat: create image
 - license: add licenses
+
+todo:
+- MD3
+- proper mount handling
 
 ---
 
