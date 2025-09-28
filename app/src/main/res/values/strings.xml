@@ -10,10 +10,16 @@
     <!-- MainActivity -->
     <string name="host_source_file">Image file</string>
     <string name="host_ro">Read-only</string>
-    <string name="host_ro_summary">Prevent the PC from writing to the image</string>
+    <string name="host_ro_summary">Prevent the host from writing to the image</string>
     <string name="host_serve">Mount</string>
     <string name="host_disable">Unmount</string>
-    <string name="host_help">Click *Mount* to apply any changes</string>
+    <string name="host_help">
+        Welcome to PhoneStick\n
+        \nClick *Image file* to select an image.
+        \nIf you don’t have any image files yet, click *Create image* in the top left corner.
+        \nAfter connecting to the host computer and *Mount*, you can format it.
+        \n*Mount* will disable other USB features, and they will be restored after *Unmount*.
+    </string>
 
     <!-- ImageChooserActivity -->
     <string name="title_activity_image_chooser">Image files</string>
@@ -24,7 +30,7 @@
 	<!-- NewImageActivity -->
     <string name="hint_image_name">Image file name (eg. phonestick.img)</string>
     <string name="label_size">Image size</string>
-    <string name="create_image">Create Image</string>
+    <string name="create_image">Create image</string>
     <string name="dialog_creating">Creating image file...</string>
     <string name="toast_create_success">Image created successfully</string>
     <string name="toast_create_failed">Failed to create image</string>
