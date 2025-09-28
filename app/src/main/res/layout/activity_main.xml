@@ -49,10 +49,13 @@
             android:layout_height="@dimen/activity_vertical_spacing" />
 
         <TextView
-            android:text="@string/host_help"
+            android:id="@+id/help"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/help" />
+            android:text="@string/host_help"
+            android:lineSpacingExtra="4dp"
+            android:ellipsize="none"
+            android:scrollHorizontally="false" />
 
     </LinearLayout>
 
